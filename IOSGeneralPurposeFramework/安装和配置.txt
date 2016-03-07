@@ -1,0 +1,4 @@
+1.将product下面的framework添加到目标工程中。
+2.将Common文件夹添加到目标工程中。
+3.在Build Settings一栏Other Linker Flags添加-ObjC选项
+4.在Build Settings一栏Mach-O Type的属性改为Static Library（废弃，不用修改）

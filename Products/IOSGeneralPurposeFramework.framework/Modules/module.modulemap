@@ -1,0 +1,6 @@
+framework module IOSGeneralPurposeFramework {
+  umbrella header "IOSGeneralPurposeFramework.h"
+
+  export *
+  module * { export * }
+}
