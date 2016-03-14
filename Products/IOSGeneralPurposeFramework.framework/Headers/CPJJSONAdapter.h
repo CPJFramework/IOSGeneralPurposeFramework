@@ -32,8 +32,8 @@
 @property(nonatomic, weak, readonly) NSObject *___CPJMANTLE_PROPERTY_##PROPERTY_NAME##$$##INTERFACE_NAME##$$##PROPERTY_TYPE;
 
 #define CPJMODEL_ADD_NSARRAY_PROPERTY(PROPERTY_TYPE ,PROPERTY_NAME, INTERFACE_NAME)\
-@property(nonatomic, strong) PROPERTY_TYPE *PROPERTY_NAME;\
-@property(nonatomic, weak, readonly) NSObject *___CPJMANTLE_PROPERTY_##PROPERTY_NAME##$$##INTERFACE_NAME##$$##PROPERTY_TYPE;
+@property(nonatomic, strong) NSArray *PROPERTY_NAME;\
+@property(nonatomic, weak, readonly) NSObject *___CPJMANTLE_PROPERTY_##PROPERTY_NAME##$$##INTERFACE_NAME##$$##NSArray$##PROPERTY_TYPE;
 
 #define CREATE_CPJMODEL_END @end
 

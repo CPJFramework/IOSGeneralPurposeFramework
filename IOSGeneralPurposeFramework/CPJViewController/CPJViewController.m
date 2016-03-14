@@ -197,13 +197,14 @@
 }
 
 #pragma mark - 懒加载
-
+/*  根据需要自己配置
 - (id<CPJNetworkStateComponentProtocol>)networkStateHander{
     if(!_networkStateHander){
         _networkStateHander = [[CPJBaseNetworkStateComponent alloc] init];
     }
     return _networkStateHander;
 }
+*/
 
 - (id<CPJLoadingComponentProtocal>)loadingComponent{
     if(!_loadingComponent){

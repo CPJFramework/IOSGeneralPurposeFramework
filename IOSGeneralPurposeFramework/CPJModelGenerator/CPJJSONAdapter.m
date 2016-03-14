@@ -19,6 +19,10 @@
 //
 @property (nonatomic, strong)Class    modelType;
 
+// NSArray中数据的类型，NSDictionary中的数据类型
+//
+@property (nonatomic, strong)Class    valueModelType;
+
 // model中对应的接口名称
 //
 @property (nonatomic, strong)NSString *modelParam;
@@ -66,7 +70,11 @@ enum CPJModelVar{CPJModelProperty, CPJModelParam, CPJModelType, CPJModelVarCount
     NSArray *propertyList = [self getPropertyNameArrayWithClass:obj];
     CPJModel *model = [[obj alloc] init];
     for(CPJProperty *property in propertyList){
-        [model setValue:[self converToClass:property.modelType withObject:[dict objectForKey:property.modelParam]] forKey:property.propertyName];
+        if(property.valueModelType == nil){
+            [model setValue:[self converToClass:property.modelType withObject:[dict objectForKey:property.modelParam]] forKey:property.propertyName];
+        }else{
+            [model setValue:[self convertToContainer:property.modelType withValueType:property.valueModelType withObject:[dict objectForKey:property.modelParam]] forKey:property.propertyName];
+        }
     }
     
     return model;
@@ -88,8 +96,21 @@ enum CPJModelVar{CPJModelProperty, CPJModelParam, CPJModelType, CPJModelVarCount
     }else if([obj isSubclassOfClass:[CPJModel class]]){
         return [self converToCPJModelWithClass:obj withObject:object];
     }
+    return [NSNull new];
+}
+
+- (id)convertToContainer:(Class)obj withValueType:(Class)val withObject:(id)object{
+    if([obj isSubclassOfClass:[NSArray class]]){
+        NSMutableArray *array = [NSMutableArray new];
+        for(NSObject *tempObj in object){
+            [array addObject:[self converToClass:val withObject:tempObj]];
+        }
+        return array;
+    }else if([obj isSubclassOfClass:[NSDictionary class]]){
+        return [self modelsOfClass:val fromJSONDictionary:object];
+    }
     
-    return nil;
+    return [NSNull new];
 }
 
 - (NSString *)converToNSString:(id)object{
@@ -120,7 +141,14 @@ enum CPJModelVar{CPJModelProperty, CPJModelParam, CPJModelType, CPJModelVarCount
             if(arr.count == CPJModelVarCount){
                 property.propertyName = arr[CPJModelProperty];
                 property.modelParam = arr[CPJModelParam];
-                property.modelType = NSClassFromString(arr[CPJModelType]);
+                
+                if([arr[CPJModelType] containsString:@"$"]){
+                    NSArray * temp = [arr[CPJModelType] componentsSeparatedByString:@"$"];
+                    property.modelType = NSClassFromString([temp firstObject]);
+                    property.valueModelType = NSClassFromString([temp lastObject]);
+                }else{
+                    property.modelType = NSClassFromString(arr[CPJModelType]);
+                }
                 [propertyList addObject:property];
             }
         }

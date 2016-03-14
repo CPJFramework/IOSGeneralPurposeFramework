@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableViewComponent.view.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self initializeAdapterAndSetDatasource];
     [self registerCells];
 }
@@ -150,8 +151,9 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     CPJTableViewComponent *component = [self.tableViewComponentes objectForKey:[CPJTableViewComponent getTableViewStringHashWithTalbeView:tableView]];
-        
-    CPJSectionDataSourceCache *cache = [component.sections[indexPath.section] getSectionDataSourceCacheWithRow:indexPath.row];
+    NSInteger section = indexPath.section >= component.sections.count ? component.sections.count-1:indexPath.section;
+    NSInteger row = indexPath.row >= [[component.sections[section] dataSourceOfsection] count] ? [[component.sections[section] dataSourceOfsection] count] -1 :indexPath.row;
+    CPJSectionDataSourceCache *cache = [component.sections[section] getSectionDataSourceCacheWithRow:row];
         
     CPJTableViewCell *cell = [self.cellInstanceDic objectForKey:cache.cellIdentifier];
     [cell prepareForReuse];

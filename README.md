@@ -1,2 +1,1 @@
-# IOSGeneralPurposeFramework
-集成开发工程时所通用的控件
+#IOSGeneralPurposeFramework

@@ -20,12 +20,28 @@
 
 - (void)cellDidSelectedWithModel:(id)model withUserInfo:(NSDictionary *)userInfo;
 
+/**
+ * 计算label的高度
+ */
+- (CGFloat)heightForLabel:(UILabel *)label;
+/**
+ * 计算文本的高度
+ */
+- (CGFloat)heightForText:(NSString*)text font:(UIFont*)font withinWidth:(CGFloat)width;
+/**
+ * 在子类中重载。例如:return 50;
+ */
+- (CGFloat)cellHeight;
+
+- (void)setCellHeight:(CGFloat)height;
 @end
 
 @interface CPJTableViewCell : UITableViewCell<CPJTableViewCellProtocol>
 
+@property (nonatomic, weak)id           model;
+@property (nonatomic, strong)UIView     *splitLineView;    //分割线
 @property (nonatomic, copy)NSDictionary *userInfo;
-@property (nonatomic, weak)id model;
+
 
 /**
  * 使用数据模型配置cell的界面，该方法需要在子类中重载

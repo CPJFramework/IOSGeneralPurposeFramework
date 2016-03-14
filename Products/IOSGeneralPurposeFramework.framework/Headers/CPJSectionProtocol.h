@@ -35,13 +35,6 @@
  */
 - (UIView *)getFooterViewWithTableView:(UITableView *)tableView withSection:(NSInteger)section;
 
-@required
-
-/**
- * 在此加载cellClass或cellNib
- */
-- (void)configAdapter;
-
 
 
 

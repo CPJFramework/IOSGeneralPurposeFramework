@@ -46,14 +46,6 @@
     return NO;
 }
 
-- (instancetype)init{
-    self = [super init];
-    if(self){
-        [self configAdapter];
-    }
-    return self;
-}
-
 - (void)addCellWithCellClass:(Class)objclass withDataSource:(CPJDataSource *)dataSource withCellID:(NSString *)cellID{
     [self.cellDict addObject:objclass pairedWithKey:cellID];
     [self.sectionDataSource addObject:dataSource pairedWithKey:cellID];
@@ -64,11 +56,12 @@
     [self.sectionDataSource addObject:dataSource pairedWithKey:cellID];
 }
 
-/**
- * 在子类中重写，在此加载cellClass或cellNib 必须重载
- */
-- (void)configAdapter{
-    
+- (void)addCellWithCellClass:(Class)objclass withCellID:(NSString *)cellID{
+    [self.cellDict addObject:objclass pairedWithKey:cellID];
+}
+
+- (void)addWithCellNibName:(NSString *)nibName withCellID:(NSString *)cellID{
+    [self.cellDict addObject:[UINib nibWithNibName:nibName bundle:nil] pairedWithKey:cellID];
 }
 
 /**
