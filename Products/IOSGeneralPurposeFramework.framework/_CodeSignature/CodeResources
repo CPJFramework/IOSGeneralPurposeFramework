@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CPJAbstractNetworking.h</key>
 		<data>
-		QrT0FW21Zp1QgivsW9RiQ1hiy0w=
+		Z+2khQMy42wXRop+cFdVgww5UJc=
 		</data>
 		<key>Headers/CPJAbstractSection.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/CPJNetworkingProtocol.h</key>
 		<data>
-		sSrzNSICkj0L1w0XB1g0qqDL4H4=
+		WdN96be4n8GsDdpeWnbD7ZxpTng=
 		</data>
 		<key>Headers/CPJPopView.h</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Headers/IOSGeneralPurposeFramework.h</key>
 		<data>
-		DcTqXfNrKi0o2Zc2HKq3zCpvuVY=
+		vEvLxa+U2/GBxR3JYiMO0yRoy/8=
 		</data>
 		<key>Headers/M13OrderedDictionary.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NEqvgSFFi9oQk4BLdPVRmtILAe0=
+		wFTTYgi7d39wW4//tMVspgjAEyw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -196,189 +196,511 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/CPJAbstractNetworking.h</key>
-		<data>
-		QrT0FW21Zp1QgivsW9RiQ1hiy0w=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z+2khQMy42wXRop+cFdVgww5UJc=
+			</data>
+			<key>hash2</key>
+			<data>
+			CL5dtR6/iLYAqPPGqYYpyfV150g/6HJvJ8gWsxLUA98=
+			</data>
+		</dict>
 		<key>Headers/CPJAbstractSection.h</key>
-		<data>
-		1K9vLkQObrxvu+UCifV0wEmZ8N8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1K9vLkQObrxvu+UCifV0wEmZ8N8=
+			</data>
+			<key>hash2</key>
+			<data>
+			MWywX62oTlTnKnTA/KJ+TohW093euOsQtNGtm/cX0Go=
+			</data>
+		</dict>
 		<key>Headers/CPJAlertView.h</key>
-		<data>
-		hbltkcmrdmI0muoDT1buDah+FwQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			hbltkcmrdmI0muoDT1buDah+FwQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			VUwoqudK1gkMC220FSqkPwT03mXki+Y+Sqmt+IR6LdQ=
+			</data>
+		</dict>
 		<key>Headers/CPJBaseLoadingComponent.h</key>
-		<data>
-		/RKUnXJYobV6QIx4Pdd1VV57I/w=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			/RKUnXJYobV6QIx4Pdd1VV57I/w=
+			</data>
+			<key>hash2</key>
+			<data>
+			yas056wkl06iQpO+Sjaqk85sBkBnjyRDoTMUGnawYmQ=
+			</data>
+		</dict>
 		<key>Headers/CPJBaseNetworkStateComponent.h</key>
-		<data>
-		pfr5Scb58phQawBGtS/FEXM6UPA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			pfr5Scb58phQawBGtS/FEXM6UPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			VbITZ5FVr77Ku/JlQkXEx1AB4ZY9wnvbzZd+9ZSdU2w=
+			</data>
+		</dict>
 		<key>Headers/CPJClippingPanel.h</key>
-		<data>
-		BcS2hBeTkzizn9SCwNham2z7w7o=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			BcS2hBeTkzizn9SCwNham2z7w7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			STX61AJ5AwJ3jfznnYmIOWAzdUvwEzWYKzaeSpOarRo=
+			</data>
+		</dict>
 		<key>Headers/CPJDataSource.h</key>
-		<data>
-		/BITIuWiudbKQoGVaUP6Hx+kSYI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			/BITIuWiudbKQoGVaUP6Hx+kSYI=
+			</data>
+			<key>hash2</key>
+			<data>
+			cIFg0qlfyTSBffm+5pAn+4LZCutJnTtflD0Jlxr43PM=
+			</data>
+		</dict>
 		<key>Headers/CPJDialogView.h</key>
-		<data>
-		ilhZhNjlef0VHJIe7CeXWlFO+z8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ilhZhNjlef0VHJIe7CeXWlFO+z8=
+			</data>
+			<key>hash2</key>
+			<data>
+			4bnUA+mtrjqUAYCCfVNI3tn5gOf1kUjQGAhdleEocA8=
+			</data>
+		</dict>
 		<key>Headers/CPJGridLayoutView.h</key>
-		<data>
-		9Riz0mu+mGrqnLZYDmoZXhkCeno=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			9Riz0mu+mGrqnLZYDmoZXhkCeno=
+			</data>
+			<key>hash2</key>
+			<data>
+			iJNWSLlW5ikCAuGRzf+RrDKCQ72+fHUGd+tRCfvhEgE=
+			</data>
+		</dict>
 		<key>Headers/CPJGridView.h</key>
-		<data>
-		KcRmjjYF1BPxwqu12d9Vb5x5Nek=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			KcRmjjYF1BPxwqu12d9Vb5x5Nek=
+			</data>
+			<key>hash2</key>
+			<data>
+			iUJl1YTgqwJjg3S9+CtzATu2uhrzgHUwkBVI7/naKjs=
+			</data>
+		</dict>
 		<key>Headers/CPJImageButton.h</key>
-		<data>
-		hLdk8pwlhPV0wCYYjO75KlZUeCw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			hLdk8pwlhPV0wCYYjO75KlZUeCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			ctdisHKgjM3Zmm52oOHgwji7DD3eqlu43+KX9i85dBM=
+			</data>
+		</dict>
 		<key>Headers/CPJImageClipping.h</key>
-		<data>
-		OqkROiJQzld7wGUi6xWByklYNOo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			OqkROiJQzld7wGUi6xWByklYNOo=
+			</data>
+			<key>hash2</key>
+			<data>
+			8mNzGyBeJlA4GIT4QDJV9SL0ote1o1Lgm5l2mfkKibw=
+			</data>
+		</dict>
 		<key>Headers/CPJJSONAdapter.h</key>
-		<data>
-		fbCZvs+5zdrByswexU2GKX5eacw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			fbCZvs+5zdrByswexU2GKX5eacw=
+			</data>
+			<key>hash2</key>
+			<data>
+			nkMmSWSKyMnbMJPncW3+SthWwlh69LqJ47srXAn/bR4=
+			</data>
+		</dict>
 		<key>Headers/CPJLibMacros.h</key>
-		<data>
-		2kXM2Evw11HSehzhFK/jnB1g73w=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			2kXM2Evw11HSehzhFK/jnB1g73w=
+			</data>
+			<key>hash2</key>
+			<data>
+			22rYr52W7/ab1aJrM6Hu8ogZRrJo4K/HdDE9alOMjT8=
+			</data>
+		</dict>
 		<key>Headers/CPJLoadingComponentProtocal.h</key>
-		<data>
-		li4DbtWeKT+ZMbk4xRxsaitWF/o=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			li4DbtWeKT+ZMbk4xRxsaitWF/o=
+			</data>
+			<key>hash2</key>
+			<data>
+			x/L5nxnHulQ5Emgu+aW3A1p3OVn/K2sIV8JxHuNbUlM=
+			</data>
+		</dict>
 		<key>Headers/CPJNODataStateComponent.h</key>
-		<data>
-		XU8WiZ2zIIjEQJOLF1scROs6dSs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			XU8WiZ2zIIjEQJOLF1scROs6dSs=
+			</data>
+			<key>hash2</key>
+			<data>
+			izvKRzFeWHblB25JmAvJZd41jJyZMSEgazjS89pIsBM=
+			</data>
+		</dict>
 		<key>Headers/CPJNODataStateComponentProtocol.h</key>
-		<data>
-		kuw6ladKXSVUcQm+y1/jItkF6CI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			kuw6ladKXSVUcQm+y1/jItkF6CI=
+			</data>
+			<key>hash2</key>
+			<data>
+			k2pJoCa/K/w3JJDPwanlM6Ed6pO+JWt+KGJVKtUuMBk=
+			</data>
+		</dict>
 		<key>Headers/CPJNetworkErrorProtocal.h</key>
-		<data>
-		HW1lLI1FiiichoQVOEFOskGyArU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			HW1lLI1FiiichoQVOEFOskGyArU=
+			</data>
+			<key>hash2</key>
+			<data>
+			G27axTbGUWEThv1IYhZ7QEOpFmN1BRb6Ezj6zbo095g=
+			</data>
+		</dict>
 		<key>Headers/CPJNetworkStateComonentProtocol.h</key>
-		<data>
-		shjIXOdLNjXnySJIAJkYTlIyS5c=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			shjIXOdLNjXnySJIAJkYTlIyS5c=
+			</data>
+			<key>hash2</key>
+			<data>
+			4UnnJmIJNyMtZ5eVZXktUxVMMYONAKhnxun/yAdFp2o=
+			</data>
+		</dict>
 		<key>Headers/CPJNetworkingProtocol.h</key>
-		<data>
-		sSrzNSICkj0L1w0XB1g0qqDL4H4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			WdN96be4n8GsDdpeWnbD7ZxpTng=
+			</data>
+			<key>hash2</key>
+			<data>
+			lmQ+vh7DnS8QU7zG+SMgOJcE/YuyAnjtT5XGGqXCvLE=
+			</data>
+		</dict>
 		<key>Headers/CPJPopView.h</key>
-		<data>
-		X4vmjy8Y8py9DJBPWU4iUEgzbxk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			X4vmjy8Y8py9DJBPWU4iUEgzbxk=
+			</data>
+			<key>hash2</key>
+			<data>
+			mR1MTHf0OK1GntnqAbU7N9raoLzad5A8IW5lN96B5Fk=
+			</data>
+		</dict>
 		<key>Headers/CPJPopViewProtocol.h</key>
-		<data>
-		cygEhocW0OQmcx3bPpuEMHyjytc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			cygEhocW0OQmcx3bPpuEMHyjytc=
+			</data>
+			<key>hash2</key>
+			<data>
+			DSMX5LYaqaPpTd/bY2OJLXfq7phW26clTkyPpMHfPTg=
+			</data>
+		</dict>
 		<key>Headers/CPJSectionProtocol.h</key>
-		<data>
-		FsM0YXZKjKRmQ1EbW/0Ivce9BD0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			FsM0YXZKjKRmQ1EbW/0Ivce9BD0=
+			</data>
+			<key>hash2</key>
+			<data>
+			mom9uinv57DkyvlyPzR5LtpYcD0SkOZ8o0a5bncdmAM=
+			</data>
+		</dict>
 		<key>Headers/CPJSidebarViewController.h</key>
-		<data>
-		CeyDibx0d6sa7tll2J2H7nasExM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			CeyDibx0d6sa7tll2J2H7nasExM=
+			</data>
+			<key>hash2</key>
+			<data>
+			hwr7juf7+49l6HGeArvDwX0WE2qgU6A4afKBr0g8mnY=
+			</data>
+		</dict>
 		<key>Headers/CPJTableViewBaseRefreshComponent.h</key>
-		<data>
-		wj1OjuK5thuarsm50NU3ciwkYOg=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			wj1OjuK5thuarsm50NU3ciwkYOg=
+			</data>
+			<key>hash2</key>
+			<data>
+			RcRqXi40xWvGwRR3kcboLM4esSa5nQdle7+Vsv8TTmM=
+			</data>
+		</dict>
 		<key>Headers/CPJTableViewCell.h</key>
-		<data>
-		+XeAMCdpN2A24MzHKqC3s9IJCvs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			+XeAMCdpN2A24MzHKqC3s9IJCvs=
+			</data>
+			<key>hash2</key>
+			<data>
+			HqkIDd20T6+B12wsj+N3eeoJ+W2zJtyfTNXUurW7QBc=
+			</data>
+		</dict>
 		<key>Headers/CPJTableViewComponent.h</key>
-		<data>
-		GkN6YrR94uwY15YUPUCkdQwH7G0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			GkN6YrR94uwY15YUPUCkdQwH7G0=
+			</data>
+			<key>hash2</key>
+			<data>
+			S0ZhHKAJg/yrm/6ftp10wJSXLcoXCzgsXKjHYX1hmjE=
+			</data>
+		</dict>
 		<key>Headers/CPJTableViewController.h</key>
-		<data>
-		tZtKxRDcUuYgBGemJq8xZERuaPY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			tZtKxRDcUuYgBGemJq8xZERuaPY=
+			</data>
+			<key>hash2</key>
+			<data>
+			UU1xIMQ2lTVrpIwo+VEilFAV6lLCLqT/PVMu1R9Gigw=
+			</data>
+		</dict>
 		<key>Headers/CPJTableViewRefreshProtocal.h</key>
-		<data>
-		z8/YZFD5BepZZXORB1U0kDpjjwI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			z8/YZFD5BepZZXORB1U0kDpjjwI=
+			</data>
+			<key>hash2</key>
+			<data>
+			8LCKbEmEANLk9/uU5RuDZ+pAU5tmPBa8rfFA6xEicg0=
+			</data>
+		</dict>
 		<key>Headers/CPJTextView.h</key>
-		<data>
-		WmLvRI23OJpJBCZ7x94aajUgPpY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			WmLvRI23OJpJBCZ7x94aajUgPpY=
+			</data>
+			<key>hash2</key>
+			<data>
+			h01zbV3T+D6FYiOsctKKaeGRiKKosLFKGsNNrk/9yik=
+			</data>
+		</dict>
 		<key>Headers/CPJThreadGroup.h</key>
-		<data>
-		nFuSudAPs0OQFJ/2wUAfE9of7yY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			nFuSudAPs0OQFJ/2wUAfE9of7yY=
+			</data>
+			<key>hash2</key>
+			<data>
+			x1vh6DfH8UQqzEJyEoYr7wz8rA23Bi9kTpIlp8WdbKE=
+			</data>
+		</dict>
 		<key>Headers/CPJTimeoutNetworkComponent.h</key>
-		<data>
-		W1ML1TjuB4L4eFRsHHom0r6/TcA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			W1ML1TjuB4L4eFRsHHom0r6/TcA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vuAe4bLBtGuSgtSXLrxT3ubA8AWA8EmwtD4+2zSFdOY=
+			</data>
+		</dict>
 		<key>Headers/CPJViewController.h</key>
-		<data>
-		eJAMoUw80siKLDg4X+JxUHwWDqg=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			eJAMoUw80siKLDg4X+JxUHwWDqg=
+			</data>
+			<key>hash2</key>
+			<data>
+			AQKyHFjylQEOMPCB/jCajdrCNmYEB7FGnah0L5IyGVU=
+			</data>
+		</dict>
 		<key>Headers/IOSGeneralPurposeFramework.h</key>
-		<data>
-		DcTqXfNrKi0o2Zc2HKq3zCpvuVY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			vEvLxa+U2/GBxR3JYiMO0yRoy/8=
+			</data>
+			<key>hash2</key>
+			<data>
+			+BoMmmeLvd8ifdRtQh36BJA3lUoZ6HnZQ21B2pOXRac=
+			</data>
+		</dict>
 		<key>Headers/M13OrderedDictionary.h</key>
-		<data>
-		WeIlTlEkl5HNX2xBqF0o3NVkrD4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			WeIlTlEkl5HNX2xBqF0o3NVkrD4=
+			</data>
+			<key>hash2</key>
+			<data>
+			3u3IfVJUvH9EXxIMZNDwj7RUu4nHJII8/G3PHMfk9o8=
+			</data>
+		</dict>
 		<key>Headers/SZTextView.h</key>
-		<data>
-		1e2oHoMH1k5seKUscP0s/ZZFj+I=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1e2oHoMH1k5seKUscP0s/ZZFj+I=
+			</data>
+			<key>hash2</key>
+			<data>
+			SE82F9lcqhzw+U080OGFJKkmzOW4DR+WYSB/DTmLN40=
+			</data>
+		</dict>
 		<key>Headers/TPKeyboardAvoidingCollectionView.h</key>
-		<data>
-		aExLWL+tiwR5CjhRrlu5qGTKN08=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			aExLWL+tiwR5CjhRrlu5qGTKN08=
+			</data>
+			<key>hash2</key>
+			<data>
+			srnw8G3nuLdlF8PJMc+yj9EW+NpsgxOI3q80D4CUWyQ=
+			</data>
+		</dict>
 		<key>Headers/TPKeyboardAvoidingScrollView.h</key>
-		<data>
-		m+TT7LA/DoRuQXiA0w4/jdMBQfE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			m+TT7LA/DoRuQXiA0w4/jdMBQfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			PD7ZJERRyl2gFWdONHPKDom8hWrPTy+MaZ6RsyjcXHA=
+			</data>
+		</dict>
 		<key>Headers/TPKeyboardAvoidingTableView.h</key>
-		<data>
-		CgL9i2ZVp5brqI3+eOVTFnD7N1Y=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			CgL9i2ZVp5brqI3+eOVTFnD7N1Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			Oc/J8ohwaz7WYevvgPld+/lYWzKMYedL2BWsVQ2tpSg=
+			</data>
+		</dict>
 		<key>Headers/UIScrollView+TPKeyboardAvoidingAdditions.h</key>
-		<data>
-		114taWyD6YBFkhCtjyvsdYgjKQs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			114taWyD6YBFkhCtjyvsdYgjKQs=
+			</data>
+			<key>hash2</key>
+			<data>
+			PHzij6uSA8RlxG51YrI3e14j9yfd/wTrGR5FdA+XLSg=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		SOy/9i6q5KqQ4ytGsP9forsYt/A=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			SOy/9i6q5KqQ4ytGsP9forsYt/A=
+			</data>
+			<key>hash2</key>
+			<data>
+			2AbbYXmBii5qWfuPtIcGZwX0eDzol6ejYxFl1E7FSSI=
+			</data>
+		</dict>
 		<key>meiyouxiaoxi.png</key>
-		<data>
-		zvgE9BeyGKJYLvt6IbM/ADKscKU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zvgE9BeyGKJYLvt6IbM/ADKscKU=
+			</data>
+			<key>hash2</key>
+			<data>
+			bYNlpFclnvMvQT6MB5MHTLGrI/vbfsM/qef/zi3ONJ4=
+			</data>
+		</dict>
 		<key>meiyouxiaoxi@2x.png</key>
-		<data>
-		ACZBsSo/Wuj8f+LoH3PIhwU/gjo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ACZBsSo/Wuj8f+LoH3PIhwU/gjo=
+			</data>
+			<key>hash2</key>
+			<data>
+			NxG+WH3e534LBk0Tgab/3DzzkhnDCWzDOWvhJa1m5Sg=
+			</data>
+		</dict>
 		<key>meiyouxiaoxi@3x.png</key>
-		<data>
-		wb7pGR15nXlTMFn+wMSmW+lHpaw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			wb7pGR15nXlTMFn+wMSmW+lHpaw=
+			</data>
+			<key>hash2</key>
+			<data>
+			KOxKrxzRWnh7AEUGFmLbp4tIOVhmVL8qVJCbZtGJfek=
+			</data>
+		</dict>
 		<key>normal@2x.png</key>
-		<data>
-		rYU/58Ul69LFKqVIoVTjkn8HvXI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			rYU/58Ul69LFKqVIoVTjkn8HvXI=
+			</data>
+			<key>hash2</key>
+			<data>
+			dNkM3ATp31sVhuZaNSymH64q/3zeOv2GPE8/rmsvwVM=
+			</data>
+		</dict>
 		<key>安装和配置.txt</key>
-		<data>
-		fmBWmKpXWrAKhoA1jbrQxk7KNN4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			fmBWmKpXWrAKhoA1jbrQxk7KNN4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FrsEJqxu/9hHuznAqT9iL+QFJt6FJj8IKlaiEoSnghI=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

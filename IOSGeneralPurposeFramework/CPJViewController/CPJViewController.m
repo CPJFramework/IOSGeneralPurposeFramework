@@ -14,7 +14,7 @@
 #import "CPJAbstractNetworking.h"
 #import "CPJTimeoutNetworkComponent.h"
 
-@interface CPJViewController ()
+@interface CPJViewController ()<CPJNetworkingProtocol>
 
 @property(nonatomic, strong)NSMutableArray *serialRequestQueue;
 @property(nonatomic, strong)NSMutableArray *concurrentRequestQueue;
@@ -23,6 +23,7 @@
 
 @implementation CPJViewController{
     Reachability* reachHander;
+    dispatch_group_t group;
 }
 
 @synthesize contentView = _contentView;
@@ -91,12 +92,11 @@
  * 开始执行并发网络队列
  */
 - (void)startRequestConcurrentQueueWithIdentifier:(NSString *)requestIdentifier{
-    dispatch_group_t group = dispatch_group_create();
-    for(id<CPJNetworkingProtocol> networkComponent in self.concurrentRequestQueue){
+    group = dispatch_group_create();
+    for(CPJAbstractNetworking *networkComponent in self.concurrentRequestQueue){
          dispatch_group_enter(group);
-        [networkComponent requestWithIdentifier:requestIdentifier withCallback:^{
-            dispatch_group_leave(group);
-        }];
+        networkComponent.delegate = self;
+        [networkComponent requestWithIdentifier:requestIdentifier];
     }
     dispatch_group_notify(group, dispatch_get_main_queue(), ^{ // 4
         CPJAbstractNetworking *errorNetwork;
@@ -110,6 +110,10 @@
         [self handleErrorNetworking:errorNetwork requestIdentifier:requestIdentifier];
         [self requestFinished:CONCURRENT_REQUEST_QUEUE requestIdentifier:requestIdentifier];
     });
+}
+
+- (void)finishRequest{
+    dispatch_group_leave(group);
 }
 
 /**

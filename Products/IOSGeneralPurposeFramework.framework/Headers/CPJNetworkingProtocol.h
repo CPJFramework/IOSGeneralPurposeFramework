@@ -19,7 +19,7 @@
 /**
  * 在子类中调用
  */
-- (void)requestWithIdentifier:(NSString *)Identifier withCallback:(void (^)())callback;
+- (void)finishRequest;
 
 @end
 
