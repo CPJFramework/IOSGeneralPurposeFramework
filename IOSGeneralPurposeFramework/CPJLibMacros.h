@@ -22,6 +22,10 @@
     return _##property_name;\
 }
 
-
+#define CPJCORNER_RADIUS(view, radius)\
+view.layer.masksToBounds = YES;\
+view.layer.cornerRadius = radius;\
+view.layer.shouldRasterize = YES;\
+view.layer.rasterizationScale = [[UIScreen mainScreen] scale];\
 
 #endif /* CPJLibMacros_h */

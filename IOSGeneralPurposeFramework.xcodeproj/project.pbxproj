@@ -43,6 +43,8 @@
 		D923378A1C3FF33900A7D31B /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92337881C3FF33900A7D31B /* SZTextView.m */; };
 		D923378D1C3FF45700A7D31B /* CPJTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D923378B1C3FF45700A7D31B /* CPJTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D923378E1C3FF45700A7D31B /* CPJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D923378C1C3FF45700A7D31B /* CPJTextView.m */; };
+		D9446CED1CBCFFE200C1F6B8 /* CPJUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D9446CEB1CBCFFE200C1F6B8 /* CPJUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9446CEE1CBCFFE200C1F6B8 /* CPJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D9446CEC1CBCFFE200C1F6B8 /* CPJUtility.m */; };
 		D947C40D1C1D6D9F00487A3D /* CPJClippingPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D947C4091C1D6D9F00487A3D /* CPJClippingPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D947C40E1C1D6D9F00487A3D /* CPJClippingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D947C40A1C1D6D9F00487A3D /* CPJClippingPanel.m */; };
 		D947C40F1C1D6D9F00487A3D /* CPJImageClipping.h in Headers */ = {isa = PBXBuildFile; fileRef = D947C40B1C1D6D9F00487A3D /* CPJImageClipping.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +58,11 @@
 		D994F0DC1B9A6DD700D1B098 /* CPJTableViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D994F0DA1B9A6DD700D1B098 /* CPJTableViewComponent.m */; };
 		D99B46B41BF7305700999899 /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = D99B46B21BF7305700999899 /* M13OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D99B46B51BF7305700999899 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B46B31BF7305700999899 /* M13OrderedDictionary.m */; };
+		D9C5C37F1CBB9E7A005ADD19 /* CPJFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5C37A1CBB9E7A005ADD19 /* CPJFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C5C3801CBB9E7A005ADD19 /* CPJFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C5C37B1CBB9E7A005ADD19 /* CPJFilter.m */; };
+		D9C5C3811CBB9E7A005ADD19 /* CPJFilterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5C37C1CBB9E7A005ADD19 /* CPJFilterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C5C3821CBB9E7A005ADD19 /* CPJKeepLoginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5C37D1CBB9E7A005ADD19 /* CPJKeepLoginFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C5C3831CBB9E7A005ADD19 /* CPJKeepLoginFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C5C37E1CBB9E7A005ADD19 /* CPJKeepLoginFilter.m */; };
 		D9E46FBE1BCB4DD400B6EFAC /* CPJNODataStateComponentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E46FBD1BCB4DD400B6EFAC /* CPJNODataStateComponentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E46FC11BCB4DEA00B6EFAC /* CPJNODataStateComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E46FBF1BCB4DEA00B6EFAC /* CPJNODataStateComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E46FC21BCB4DEA00B6EFAC /* CPJNODataStateComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E46FC01BCB4DEA00B6EFAC /* CPJNODataStateComponent.m */; };
@@ -94,6 +101,8 @@
 		D9E7E93D1B90183B003AEA33 /* CPJAbstractNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E7E93B1B90183B003AEA33 /* CPJAbstractNetworking.m */; };
 		D9E7E97A1B905AA7003AEA33 /* CPJDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E7E9781B905AA7003AEA33 /* CPJDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E7E97B1B905AA7003AEA33 /* CPJDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E7E9791B905AA7003AEA33 /* CPJDataSource.m */; };
+		D9EF9D031CBE4E2D00AD62B4 /* UIImage+CPJUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EF9D011CBE4E2D00AD62B4 /* UIImage+CPJUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EF9D041CBE4E2D00AD62B4 /* UIImage+CPJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EF9D021CBE4E2D00AD62B4 /* UIImage+CPJUtility.m */; };
 		D9F64FC41B94040A0000342B /* CPJNetworkErrorProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F64FBE1B94040A0000342B /* CPJNetworkErrorProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9F64FC51B94040A0000342B /* CPJTimeoutNetworkComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F64FBF1B94040A0000342B /* CPJTimeoutNetworkComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9F64FC61B94040A0000342B /* CPJTimeoutNetworkComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F64FC01B94040A0000342B /* CPJTimeoutNetworkComponent.m */; };
@@ -141,6 +150,8 @@
 		D92337881C3FF33900A7D31B /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTextView.m; sourceTree = "<group>"; };
 		D923378B1C3FF45700A7D31B /* CPJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJTextView.h; sourceTree = "<group>"; };
 		D923378C1C3FF45700A7D31B /* CPJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJTextView.m; sourceTree = "<group>"; };
+		D9446CEB1CBCFFE200C1F6B8 /* CPJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJUtility.h; sourceTree = "<group>"; };
+		D9446CEC1CBCFFE200C1F6B8 /* CPJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJUtility.m; sourceTree = "<group>"; };
 		D947C4091C1D6D9F00487A3D /* CPJClippingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJClippingPanel.h; sourceTree = "<group>"; };
 		D947C40A1C1D6D9F00487A3D /* CPJClippingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJClippingPanel.m; sourceTree = "<group>"; };
 		D947C40B1C1D6D9F00487A3D /* CPJImageClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJImageClipping.h; sourceTree = "<group>"; };
@@ -198,6 +209,11 @@
 		D994F0DA1B9A6DD700D1B098 /* CPJTableViewComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJTableViewComponent.m; sourceTree = "<group>"; };
 		D99B46B21BF7305700999899 /* M13OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13OrderedDictionary.h; sourceTree = "<group>"; };
 		D99B46B31BF7305700999899 /* M13OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13OrderedDictionary.m; sourceTree = "<group>"; };
+		D9C5C37A1CBB9E7A005ADD19 /* CPJFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJFilter.h; sourceTree = "<group>"; };
+		D9C5C37B1CBB9E7A005ADD19 /* CPJFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJFilter.m; sourceTree = "<group>"; };
+		D9C5C37C1CBB9E7A005ADD19 /* CPJFilterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJFilterProtocol.h; sourceTree = "<group>"; };
+		D9C5C37D1CBB9E7A005ADD19 /* CPJKeepLoginFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJKeepLoginFilter.h; sourceTree = "<group>"; };
+		D9C5C37E1CBB9E7A005ADD19 /* CPJKeepLoginFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJKeepLoginFilter.m; sourceTree = "<group>"; };
 		D9E46FBD1BCB4DD400B6EFAC /* CPJNODataStateComponentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJNODataStateComponentProtocol.h; sourceTree = "<group>"; };
 		D9E46FBF1BCB4DEA00B6EFAC /* CPJNODataStateComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJNODataStateComponent.h; sourceTree = "<group>"; };
 		D9E46FC01BCB4DEA00B6EFAC /* CPJNODataStateComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJNODataStateComponent.m; sourceTree = "<group>"; };
@@ -239,6 +255,8 @@
 		D9E7E93B1B90183B003AEA33 /* CPJAbstractNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJAbstractNetworking.m; sourceTree = "<group>"; };
 		D9E7E9781B905AA7003AEA33 /* CPJDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJDataSource.h; sourceTree = "<group>"; };
 		D9E7E9791B905AA7003AEA33 /* CPJDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJDataSource.m; sourceTree = "<group>"; };
+		D9EF9D011CBE4E2D00AD62B4 /* UIImage+CPJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CPJUtility.h"; sourceTree = "<group>"; };
+		D9EF9D021CBE4E2D00AD62B4 /* UIImage+CPJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CPJUtility.m"; sourceTree = "<group>"; };
 		D9F64FBE1B94040A0000342B /* CPJNetworkErrorProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJNetworkErrorProtocal.h; sourceTree = "<group>"; };
 		D9F64FBF1B94040A0000342B /* CPJTimeoutNetworkComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPJTimeoutNetworkComponent.h; sourceTree = "<group>"; };
 		D9F64FC01B94040A0000342B /* CPJTimeoutNetworkComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPJTimeoutNetworkComponent.m; sourceTree = "<group>"; };
@@ -329,6 +347,17 @@
 				D923378C1C3FF45700A7D31B /* CPJTextView.m */,
 			);
 			path = CPJTextView;
+			sourceTree = "<group>";
+		};
+		D9446CEA1CBCFFA000C1F6B8 /* CPJUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D9EF9D011CBE4E2D00AD62B4 /* UIImage+CPJUtility.h */,
+				D9EF9D021CBE4E2D00AD62B4 /* UIImage+CPJUtility.m */,
+				D9446CEB1CBCFFE200C1F6B8 /* CPJUtility.h */,
+				D9446CEC1CBCFFE200C1F6B8 /* CPJUtility.m */,
+			);
+			path = CPJUtility;
 			sourceTree = "<group>";
 		};
 		D947C4081C1D6D7800487A3D /* CPJClippingPanel */ = {
@@ -459,6 +488,18 @@
 			path = CPJThreadGroup;
 			sourceTree = "<group>";
 		};
+		D9C5C3791CBB9E7A005ADD19 /* CPJFilter */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5C37A1CBB9E7A005ADD19 /* CPJFilter.h */,
+				D9C5C37B1CBB9E7A005ADD19 /* CPJFilter.m */,
+				D9C5C37C1CBB9E7A005ADD19 /* CPJFilterProtocol.h */,
+				D9C5C37D1CBB9E7A005ADD19 /* CPJKeepLoginFilter.h */,
+				D9C5C37E1CBB9E7A005ADD19 /* CPJKeepLoginFilter.m */,
+			);
+			path = CPJFilter;
+			sourceTree = "<group>";
+		};
 		D9E46FBA1BCB4D1F00B6EFAC /* CPJNODataStateComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,6 +548,8 @@
 			children = (
 				D9E678201B8F02740014E960 /* IOSGeneralPurposeFramework.h */,
 				D984837E1C8EF4F9000C90DF /* CPJLibMacros.h */,
+				D9446CEA1CBCFFA000C1F6B8 /* CPJUtility */,
+				D9C5C3791CBB9E7A005ADD19 /* CPJFilter */,
 				D91038261C91C80F0017E226 /* CPJSidebarViewController */,
 				D910381D1C91C7C20017E226 /* CPJGridLayoutView */,
 				D910380A1C91C6C20017E226 /* CPJPopView */,
@@ -683,7 +726,12 @@
 				D91038241C91C7C20017E226 /* CPJGridView.h in Headers */,
 				D91038221C91C7C20017E226 /* CPJGridLayoutView.h in Headers */,
 				D91038141C91C6C20017E226 /* CPJAlertView.h in Headers */,
+				D9C5C3821CBB9E7A005ADD19 /* CPJKeepLoginFilter.h in Headers */,
+				D9C5C37F1CBB9E7A005ADD19 /* CPJFilter.h in Headers */,
+				D9C5C3811CBB9E7A005ADD19 /* CPJFilterProtocol.h in Headers */,
 				D984837F1C8EF4F9000C90DF /* CPJLibMacros.h in Headers */,
+				D9446CED1CBCFFE200C1F6B8 /* CPJUtility.h in Headers */,
+				D9EF9D031CBE4E2D00AD62B4 /* UIImage+CPJUtility.h in Headers */,
 				D9939C7A1C38AD810073436A /* CPJJSONAdapter.h in Headers */,
 				D9E679521B8F05060014E960 /* IOSGeneralPurposeFramework.h in Headers */,
 			);
@@ -811,8 +859,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E46FC21BCB4DEA00B6EFAC /* CPJNODataStateComponent.m in Sources */,
+				D9446CEE1CBCFFE200C1F6B8 /* CPJUtility.m in Sources */,
 				D910382A1C91C80F0017E226 /* CPJSidebarViewController.m in Sources */,
 				D9E52B651BFB7E39008BC2D9 /* TPKeyboardAvoidingTableView.m in Sources */,
+				D9EF9D041CBE4E2D00AD62B4 /* UIImage+CPJUtility.m in Sources */,
 				D923378E1C3FF45700A7D31B /* CPJTextView.m in Sources */,
 				D9E679321B8F02F50014E960 /* CPJTableViewController.m in Sources */,
 				D9E52B671BFB7E39008BC2D9 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
@@ -826,6 +876,7 @@
 				D9939C7B1C38AD810073436A /* CPJJSONAdapter.m in Sources */,
 				D9E679511B8F02FC0014E960 /* CPJViewController.m in Sources */,
 				D9E7E93D1B90183B003AEA33 /* CPJAbstractNetworking.m in Sources */,
+				D9C5C3831CBB9E7A005ADD19 /* CPJKeepLoginFilter.m in Sources */,
 				D9E52B631BFB7E39008BC2D9 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				D9E52B611BFB7E39008BC2D9 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				D9F64FC61B94040A0000342B /* CPJTimeoutNetworkComponent.m in Sources */,
@@ -838,6 +889,7 @@
 				D923378A1C3FF33900A7D31B /* SZTextView.m in Sources */,
 				D9E679341B8F02F50014E960 /* CPJTableViewBaseRefreshComponent.m in Sources */,
 				D9E6794E1B8F02FC0014E960 /* CPJBaseNetworkStateComponent.m in Sources */,
+				D9C5C3801CBB9E7A005ADD19 /* CPJFilter.m in Sources */,
 				D9E679481B8F02FC0014E960 /* CPJBaseLoadingComponent.m in Sources */,
 				D91BC58B1C8D65530070A9F4 /* CPJImageButton.m in Sources */,
 			);

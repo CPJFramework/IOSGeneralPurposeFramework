@@ -56,5 +56,9 @@ FOUNDATION_EXPORT const unsigned char IOSGeneralPurposeFrameworkVersionString[];
 #import "CPJGridLayoutView.h"
 #import "CPJGridView.h"
 #import "CPJSidebarViewController.h"
-#import <AFNetworking/AFNetworking.h>
+#import "CPJFilter.h"
+#import "CPJFilterProtocol.h"
+#import "CPJKeepLoginFilter.h"
+#import "CPJUtility.h"
+#import "UIImage+CPJUtility.h"
 

@@ -25,14 +25,14 @@ typedef void (^Failure)(NSError * _Nullable);
 @end
 
 @implementation CPJAbstractNetworking{
-    Class dataType;
+    
     NSString *urlstr;
 
 }
 
 - (instancetype _Nonnull)initWithUrl:(NSString *_Nonnull)url withDataClass:(Class _Nonnull) cla withParameters:(NSDictionary *_Nonnull)param{
     if(self = [super init]){
-        dataType = cla;
+        self.dataType = cla;
         urlstr = url;
         self.parameters = param;
     }
@@ -70,7 +70,7 @@ typedef void (^Failure)(NSError * _Nullable);
             self.successDict(responseObject);
         
         if(self.success)
-            self.success([[CPJJSONAdapter new] modelsOfClass:dataType fromJSON:responseObject]);
+            self.success([[CPJJSONAdapter new] modelsOfClass:self.dataType fromJSON:responseObject]);
         
         if([self.delegate respondsToSelector:@selector(finishRequest)]){
             [self.delegate finishRequest];
@@ -84,6 +84,7 @@ typedef void (^Failure)(NSError * _Nullable);
             [self.delegate finishRequest];
         }
     }];
+
     
 }
 

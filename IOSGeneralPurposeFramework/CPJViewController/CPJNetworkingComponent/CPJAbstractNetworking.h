@@ -9,12 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "CPJNetworkingProtocol.h"
 #import "CPJDataSource.h"
-@interface CPJAbstractNetworking : NSObject
+@interface CPJAbstractNetworking : NSObject{
+    
+}
 
 @property(nonatomic, strong)CPJDataSource  *_Nonnull dataSource;
 @property(nonatomic, strong)NSError *_Nullable networkError;
 @property(nonatomic, strong)NSDictionary *_Nonnull parameters;
 @property(nonatomic, weak)id<CPJNetworkingProtocol> _Nullable delegate;
+@property(nonatomic, assign, nullable)Class dataType;
 
 - (instancetype _Nonnull)initWithUrl:(NSString *_Nonnull)url withDataClass:(Class _Nonnull) cla withParameters:(NSDictionary *_Nonnull)param;
 

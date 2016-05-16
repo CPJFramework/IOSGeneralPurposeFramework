@@ -41,7 +41,6 @@
 
 - (void)awakeFromNib{
     [super awakeFromNib];
-//    [self configViews];
 }
 
 - (void)configViews{
